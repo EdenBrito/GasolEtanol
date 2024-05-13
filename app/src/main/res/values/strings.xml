@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GasolEtanol</string>
+    <string name="valor_gasolina">Valor Gasolina (R$)</string>
+    <string name="valor_etanol">Valor Etanol (R$)</string>
+    <string name="calcular">Calcular</string>
+    <string name="utilizar">A Porcentagem é =</string>
+</resources>
