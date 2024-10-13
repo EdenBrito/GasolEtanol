@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Nome:   Éden Vieira Brito
+RA:     1110482213006
+-->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -14,9 +18,9 @@
         android:layout_marginTop="101dp"
         android:ems="10"
         android:hint="@string/valor_gasolina"
+        android:importantForAutofill="no"
         android:inputType="numberDecimal"
         android:textColorHint="@color/black"
-        android:importantForAutofill="no"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -28,9 +32,9 @@
         android:layout_marginTop="36dp"
         android:ems="10"
         android:hint="@string/valor_etanol"
+        android:importantForAutofill="no"
         android:inputType="numberDecimal"
         android:textColorHint="@color/black"
-        android:importantForAutofill="no"
         app:layout_constraintStart_toStartOf="@+id/etValorGasolina"
         app:layout_constraintTop_toBottomOf="@id/etValorGasolina" />
 
